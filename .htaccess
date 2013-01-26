@@ -2,8 +2,8 @@ RewriteEngine on
 
 
 #No access to sensitive directory
-RewriteRule ^application\/.*$ index.php [L]
-RewriteRule ^library\/.*$ index.php [L]
+RewriteRule ^Application\/.*$ index.php [L]
+RewriteRule ^Library\/.*$ index.php [L]
 
 RewriteCond  %{REQUEST_FILENAME} !-f
 RewriteCond  %{REQUEST_FILENAME} !-d
