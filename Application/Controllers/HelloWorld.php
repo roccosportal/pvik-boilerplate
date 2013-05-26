@@ -3,8 +3,8 @@
 namespace MyProject\Controllers;
 
 class HelloWorld extends \Pvik\Web\Controller {
-    public function IndexAction(){
+    public function indexAction(){
         
-        $this->ExecuteView();
+        $this->executeView();
     }
 }

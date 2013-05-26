@@ -1,9 +1,9 @@
 <?php
 
-self::$Config['DefaultNamespace'] = '\\MyProject';
-self::$Config['NamespaceAssociations']['\\MyProject'] = '~/application/';
+self::$config['DefaultNamespace'] = '\\MyProject';
+self::$config['NamespaceAssociations']['\\MyProject'] = '~/application/';
 
-self::$Config['Routes'] = array(
+self::$config['Routes'] = array(
     array ('Url' => '/', 'Controller' => 'HelloWorld', 'Action' => 'Index'),
 );
 ?>
